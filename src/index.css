@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
 html,body,#root { height: 100%; }
-body { margin: 0; font-family: Inter, system-ui, Arial; }
+body { margin: 0; font-family: Inter, system-ui, Arial; background: #fafafa; }
 .app-shell { padding: 16px; }
-.chat-window { height: 60vh; overflow:auto; border: 1px solid #eee; padding: 12px; border-radius: 8px; }
+.chat-window { height: 56vh; overflow:auto; border: 1px solid #eee; padding: 12px; border-radius: 8px; background: #fff }
+.header { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px }
