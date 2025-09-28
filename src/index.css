@@ -1,0 +1,4 @@
+html,body,#root { height: 100%; }
+body { margin: 0; font-family: Inter, system-ui, Arial; }
+.app-shell { padding: 16px; }
+.chat-window { height: 60vh; overflow:auto; border: 1px solid #eee; padding: 12px; border-radius: 8px; }
